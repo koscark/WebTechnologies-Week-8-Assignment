@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart - ReTech</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ReTech</h1>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Your Cart</h2>
+        <div class="cart-container">
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Condition</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody class="cart-items">
+              <!-- Dynamically populated by js/cart.js -->
+            </tbody>
+          </table>
+          <div class="cart-summary">
+            <p>Total: <span class="cart-total">Ksh 0</span></p>
+            <button class="btn checkout-btn">Proceed to Checkout</button>
+          </div>
+        </div>
+        <div class="empty-cart" style="display: none">
+          <p>
+            Your cart is empty. <a href="products.html">Browse products</a> to
+            start shopping.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 ReTech. All rights reserved.</p>
+    </footer>
+    <script src="../assets/data/products.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - ReTech</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ReTech</h1>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Welcome to ReTech</h2>
+        <p>
+          Shop high-quality used, good, and refurbished electronics at
+          unbeatable prices.
+        </p>
+        <a href="products.html" class="btn">Browse Products</a>
+      </section>
+      <section class="featured-products">
+        <h2>Featured Electronics</h2>
+        <div class="product-grid">
+          <!-- Dynamically populated by js/products.js -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 ReTech. All rights reserved.</p>
+    </footer>
+    <script src="../assets/data/products.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>

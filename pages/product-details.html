@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details - ReTech</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../css/components.css">
+</head>
+<body>
+  <header>
+    <h1>ReTech</h1>
+    <nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="product-details" style="display: none;">
+      <div class="product-image">
+        <!-- Populated by js/products.js -->
+      </div>
+      <div class="product-info">
+        <!-- Populated by js/products.js -->
+      </div>
+    </section>
+    <section class="product-error" style="display: none;">
+      <p>Product not found. <a href="products.html">Browse all products</a>.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 ReTech. All rights reserved.</p>
+  </footer>
+  <script src="../assets/data/products.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/products.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+</html>
