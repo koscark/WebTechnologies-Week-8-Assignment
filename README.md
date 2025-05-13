@@ -81,5 +81,5 @@ E-Commerce-Website/
 └── README.md              # This documentation
 
 # Note
-I tried to depoy the website in varcel but ut was not loading the CSS and JavaScript yet in VS Code it works without an issue.
+I tried to depoy the website in varcel but it was not loading the CSS and JavaScript yet in VS Code it works without an issue.
 You can try downloading the project and running it on your local machine.
